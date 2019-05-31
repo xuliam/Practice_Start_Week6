@@ -29,7 +29,7 @@ public class loginFrame extends AbstractFrame{
 		JLabel lblLoginName = new JLabel("User Name:");
 		lblLoginName.setBounds(65, 278, 80, 25);
 		JLabel lblLoginPwd = new JLabel("Code No. :");
-		lblLoginPwd.setBounds(lblLoginPwd.getX(), lblLoginName.getY()+30, lblLoginName.getWidth(), lblLoginName.getHeight());
+		lblLoginPwd.setBounds(lblLoginName.getX(), lblLoginName.getY()+30, lblLoginName.getWidth(), lblLoginName.getHeight());
 		
 		contentPane.add(lblLoginName);
 		contentPane.add(lblLoginPwd);
