@@ -10,6 +10,8 @@ import javax.swing.JTextField;
 
 public class JTextFieldDemo extends JFrame{
 	private JTextField txtContent = new JTextField();
+	private JTextField txtContent1 = new JTextField();
+	
 	private JButton btnPrint = new JButton("PRINT");
 	
 	public JTextFieldDemo() {
@@ -28,6 +30,9 @@ public class JTextFieldDemo extends JFrame{
 		
 		txtContent.setBounds(40, 40, 120, 20);
 		contentPane.add(txtContent);
+		
+		txtContent1.setBounds(180, 40, 120, 20);;
+		contentPane.add(txtContent1);
 		
 		btnPrint.setBounds(40, 70, 80, 30);
 		contentPane.add(btnPrint);
