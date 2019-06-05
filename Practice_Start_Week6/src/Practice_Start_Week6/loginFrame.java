@@ -1,9 +1,9 @@
+
 package Practice_Start_Week6;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import com.sun.tools.javac.launcher.Main;
 
 public class loginFrame extends AbstractFrame{
 
@@ -15,6 +15,11 @@ public class loginFrame extends AbstractFrame{
 	 * @remarks TODO
 	 *
 	 *
+	 */
+	
+	/**
+	 * 
+	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	public loginFrame(int width, int height) {
